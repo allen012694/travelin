@@ -1,0 +1,42 @@
+.box.has-advanced-upload {
+  background-color: white;
+  outline: 2px dashed rgba(0, 0, 0, 0.4);
+  outline-offset: -10px;
+  /*transition: outline-offset 0.15s ease-in-out 0s, background-color 0.15s linear 0s;*/
+}
+.box__uploading, .box__success, .box__error {
+	display: none;
+}
+.box.has-advanced-upload .box__dragndrop {
+	display: inline;
+}
+.box.is-dragover {
+	background-color: grey;
+}
+.box__input{
+	height: 100%;
+}
+.box.is-uploading .box__input {
+	visibility: none;
+}
+.box__button {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+.box.is-uploading .box__uploading {
+	display: block;
+}
+.box__label {
+	display:block;
+	height: 100%;
+	text-align: center;
+	padding-top: 7%;
+}
+.box__label:hover {
+	cursor: pointer;
+}
+.box__file {
+	display: none;
+}

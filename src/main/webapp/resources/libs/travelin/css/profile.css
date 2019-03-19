@@ -1,0 +1,349 @@
+@charset "utf-8";
+#profilecontainer{
+	margin-left: 10%;
+	margin-right: 10%;
+	margin-top: 10px;
+}
+
+#profilecontainer::before, #profilecontainer::after {
+	content: " ";
+	display: table;
+}
+
+.panel {
+	margin-bottom: 20px;
+}
+
+#profile label {
+	font-family: "UTMBEBAS";
+	font-size: 24px;
+	color: #2e2e2e;
+}
+
+#profile .w3-row{
+	margin: 10px 0px;
+}
+
+#profile input {
+	background: #faf5ef;
+	
+}
+#profile .w3-btn{
+	background: #2e2e2e;
+	color: #faf5ef;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	font-family: "UTMBEBAS";
+	text-align: center;
+	font-size: 24px;
+	letter-spacing: 2px;
+	word-spacing: 4px;
+	line-height: 30px;
+	
+}
+
+
+.panel img {
+	margin-bottom: 0px;
+}
+
+.panel {
+	border: 1px solid #DCE0E0;
+	/*background-color: #FFF;*/
+	background-color: rgba(46, 46, 46, 0.1);
+	border-radius: 0px;
+	color: #2e2e2e;
+}
+.panel-header button{
+	float:right;
+}
+
+#profilecontainer a {
+	background: transparent none repeat scroll 0% 0%;
+	color: #D54859;
+	text-decoration: none;
+}
+
+.media::before, .media::after {
+	content: " ";
+	display: table;
+}
+
+.media-photo-block {
+	display: block;
+}
+
+.panel-body {
+	position: relative;
+	margin: 0;
+	padding: 20px;
+	border-top: 1px solid #DCE0E0;
+	background: #faf5ef;
+}
+
+.text-center {
+	text-align: center;
+}
+
+.list-unstyled {
+	padding-left: 0px;
+	list-style: outside none none;
+}
+
+.link-styled {
+	-webkit-border-radius: 7px;
+	-moz-border-radius: 7px;
+	-o-border-radius: 7px;
+	border-radius: 7px;
+	transition: all 0.3s ease;
+	padding: 2px;
+	/*display: block;*/
+}
+
+/*.link-styled:hover {
+	background: #D54859;
+	color: #FFFEEE;
+}*/
+
+/*.list-styled {
+	padding-left: 0px;
+	list-style: outside none none;
+}
+.list-styled hr {
+
+}
+.list-styled a {
+
+}
+*/
+.panel-header {
+	border-top: 0px none;
+	/*background-color: #EDEFED;*/
+	color: #2e2e2e;;
+	font-size: 16px;
+	padding-top: 12px;
+	padding-bottom: 12px;
+	border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+	position: relative;
+	margin: 0px;
+	padding: 20px;
+	font-weight: bold;
+}
+
+.panel-header+.panel-body, .panel-body+.panel-body {
+	border-top: medium none;
+}
+
+.text-bold {
+	font-weight: bold;
+}
+
+.section-divider {
+	border-color: #A7A7A7 -moz-use-text-color -moz-use-text-color;
+}
+
+#register {
+	background: #faf5ef;
+}
+
+#register #banner {
+	font-family: "UTMBEBAS";
+	margin-top: 20px;
+	margin-left: 7.5%;
+	margin-right: 7.5%;
+	width: 85%;
+	background: #2e2e2e;
+	color: #faf5ef;
+	text-align: center;
+	font-size: 28px;
+	letter-spacing: 2px;
+	word-spacing: 6px;
+	line-height: 40px;
+	border: 1px solid #2e2e2e;
+}
+
+#register #registerform {
+	width: 70%;
+	margin-left: 15%;
+	margin-right: 15%;
+	margin-top: 20px;
+}
+
+#register #registerform .w3-row {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+#register #registerform label {
+	font-family: "UTMBEBAS";
+	font-size: 24px;
+	color: #2e2e2e;
+}
+
+#register #registerform input {
+	background: #faf5ef;
+	color: #2e2e2e;
+}
+
+#register #registerform .w3-btn {
+	background: #2e2e2e;
+	color: #faf5ef;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	font-family: "UTMBEBAS";
+	text-align: center;
+	font-size: 24px;
+	letter-spacing: 2px;
+	word-spacing: 4px;
+	line-height: 30px;
+}
+
+#messengers{
+	background: #faf5ef;
+}
+#messengers #searchmessenger{
+	height: 40px;
+	border: 0.5px solid rgba(46,46,46,.2);
+}
+
+#messengers #senders{
+		height: 550px;
+	border: 0.5px solid rgba(46,46,46,.2);
+	max-height:550px;
+	overflow-y: scroll;
+	
+}
+#messengers #senders .sender{
+	height: 70px;
+	padding: 5px 2.5%;
+	border-bottom: 0.5px solid rgba(46,46,46,.2);
+}
+
+.deletemark{
+	margin-left:95%;width:5%;font-size: 12px;height:0;line-height:20px;
+}
+#deletemark{
+	cursor:pointer;
+	    z-index: 3;
+    position: relative;
+	color:rgba(46,46,46,.25);
+}
+
+#deletemark:hover{
+	color:rgba(46,46,46,1);
+}
+
+.sender[class~="new"]{
+	background:rgba(213,72,89,.5);
+}
+
+.sender[class~="new"]:hover{
+	color: #2e2e2e;
+	background:rgba(213,72,89,.1);
+	
+}
+
+
+
+#messengers #senders .sender:hover{
+	color: #2e2e2e;
+	background:rgba(213,72,89,.1);
+	
+}
+#messengers #senders .sender:hover a{
+	color: #2e2e2e;
+
+
+	}
+.sender.active {
+	background:rgba(213,72,89,1);
+	color: #2e2e2e;
+}
+.sender.active:hover{
+	color: #2e2e2e;
+	background:rgba(213,72,89,1) !important; 
+	
+}
+#message{
+	background: #faf5ef;
+	
+}
+
+
+#message #composer{
+	padding: 10px 2.5%;
+	padding-bottom: 34px;
+	border: 0.5px solid rgba(46,46,46,.2);
+}
+#message #messagecontent{
+	padding: 0px 2.5%;
+	border: 0.5px solid rgba(46,46,46,.2);
+	height: 400px;
+	max-height:400px;
+	overflow-y:scroll;
+}
+.onemessage{
+	
+	padding: 5px 2.5%;
+}
+#message #sendername{
+	height: 60px;
+	border: 0.5px solid rgba(46,46,46,.2);
+}
+
+#searchsender{
+	background: transparent;
+	color:#2e2e2e;
+	width:100%;
+	height:100%;
+	border: none;
+	padding: 0px 2.5%;
+}
+
+#draft:hover:after {
+    content: "Đây là bản nháp";
+    display: block;
+    position: relative;
+    padding: 5px;
+    
+    right: -10px;
+    width: 100px;
+    background: #fff;
+    border: .5px solid #ccc;
+}
+#global:hover:after {
+	color:green;
+    content: "Công khai";
+    display: block;
+    position: relative;
+    padding: 5px;
+    
+    right: -10px;
+    width: 100px;
+    background: #fff;
+    border: .5px solid #ccc;
+}
+#onlyfriend:hover:after {
+	color: blue;
+    content: "Bạn bè";
+    display: block;
+    position: relative;
+    padding: 5px;
+    
+    right: -10px;
+    width: 100px;
+    background: #fff;
+    border: .5px solid #ccc;
+}
+#private:hover:after {
+	color:red;
+    content: "Chỉ mình tôi";
+    display: block;
+    position: relative;
+    padding: 5px;
+    
+    right: -10px;
+    width: 100px;
+    background: #fff;
+    border: .5px solid #ccc;
+}

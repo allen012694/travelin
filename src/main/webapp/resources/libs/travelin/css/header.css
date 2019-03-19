@@ -1,0 +1,218 @@
+@charset "utf-8";
+/* CSS Document */
+/* Header */
+.header{
+	background:#2e2e2e;
+}
+
+
+.bannerHolder {
+	
+	height: 30rem;
+	width: 100%;
+	position: relative;
+	float: right;
+	overflow: hidden;
+}
+
+.banner h1, .banner p {
+	position: absolute;
+	top: 3rem;
+	color: #ffffff;
+	left: 100%;
+	width:70%;
+	
+}
+.banner:first-of-type h1, .banner:first-of-type p {
+	left: 6%;
+	display: block;
+}
+.banner img {
+	display: none; /*hidden for small*/
+	width: 100%;
+	height: 30rem;
+	position: absolute;
+	right: -100%;
+	top: 50%;
+	transform: translateY(-50%);
+	z-index: -1;
+}
+.banner {
+	
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+#banner1 {
+	background-image: url(../img/banner_lemon.jpg);
+}
+#banner2 {
+	background-image: url(../img/banner_milk.jpg);
+}
+#banner3 {
+	background-image: url(../img/banner_veggies.jpg);
+}
+#banner4 {
+	background-image: url(../img/banner_yogurt.jpg);
+}
+.banner:first-of-type img {
+	right: 0%;
+}
+.banner h1 {
+	font-family: "code-light";
+	font-weight:bold;
+	font-size: 2.2rem;
+	border: 2px solid #ffffff;
+	padding: 10px;
+	width:fit-content; width:-webkit-fit-content; width:-moz-fit-content; width:-o-fit-content;
+}
+.banner p {
+	margin-top: 8.5rem;
+	font-size: 1.5rem;
+	font-family: Verdana;
+}
+.banner p a {
+	font-size: 20px;
+	display: block;
+	padding: 0.5rem;
+	margin-top: 1rem;
+	width: 30%;
+	border-radius: 0.3rem;
+	background-color: rgba(255,255,255,0.5);
+	text-decoration: none;
+	color: rgba(46,46,46,0.8);
+}
+.banner p a:hover {
+	color: #faf5ef;
+	background: #d54859;
+}
+.BannerNav {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	
+	position: absolute;
+	bottom: 1%;
+	left: 50%;
+	-webkit-transform: translateX(-50%);
+	-moz-transform: translateX(-50%);
+	-o-transform: translateX(-50%);
+	transform: translateX(-50%);
+}
+.BannerNav li {
+	float: left;
+	margin: 0.5rem;
+}
+.BannerNav a {
+	display: block;
+	background: #faf5ef;
+	width: 1rem;
+	height: 1rem;
+	border-radius: 50%;
+	text-indent: -99999rem;
+}
+.BannerNav a:hover, .BannerNav .active {
+	background: #d54859;
+}
+#goNext, #goPrev {
+	position: absolute;
+	top: 50%;
+	background: rgba(255,255,255,0.5);
+	text-decoration: none;
+	font-size: 1rem;
+	width: 1.5rem;
+	font-weight: bold;
+	color: #2e2e2e;
+	border-radius: 50%;
+	text-align: center;
+	line-height: 1.5rem;
+	-webkit-transform: translateY(-50%);
+	-moz-transform: translateY(-50%);
+	-o-transform: translateY(-50%);
+	transform: translateY(-50%);
+}
+#goNext:hover, #goPrev:hover {
+	background: #d54859;
+	color: #faf5ef;
+}
+#goPrev {
+	left: 1%
+}
+#goNext {
+	right: 1%;
+}
+.banner img {
+	display: block;
+}
+.banner h1, .banner p {
+	width: 50%;
+}
+
+#search {
+	-webkit-box-shadow: 0px 0px 15px 0px rgba(46,46,46,1),-0px 0px 15px 0px rgba(46,46,46,1);
+	-moz-box-shadow: 0px 0px 15px 0px rgba(46,46,46,1),-0px 0px 15px 0px rgba(46,46,46,1);
+	-o-box-shadow: 0px 0px 15px 0px rgba(46,46,46,1),-0px 0px 15px 0px rgba(46,46,46,1);
+	box-shadow: 0px 0px 15px 0px rgba(46,46,46,1),-0px 0px 15px 0px rgba(46,46,46,1);
+	height: 150px;
+	background-color: #2e2e2e;
+    	padding-top: 50px;
+    width: 100%;
+    /* margin-left: 7.5%;
+    margin-right: 7.5% */;
+    display: inline-block;
+	
+    
+}
+
+#search #search_input {
+	background-image: url("/travelin/resources/libs/travelin/img/searchicon.png");
+	background-repeat: no-repeat;
+	    background-position: 96.5%;
+    background-size: 5% 30px;
+	background-color:#faf5ef;
+	border-radius: 25px;
+	padding: 0px 2%;
+	height: 50px;
+	margin-right: 25%;
+    margin-left: 25%;
+	width: 50%;
+	
+}
+
+
+#dropmenu {
+	background-color: #faf5ef;
+    position: absolute;
+    padding: 10px 0;
+    display: none;
+    top: 75px;
+    
+    z-index: 3;
+    width: 200px;
+    -webkit-box-shadow: 0px 0px 0px 1px rgba(46,46,46,.1),-0px 0px 0px 1px rgba(46,46,46,.1);
+	-moz-box-shadow: 0px 0px 0px 1px rgba(46,46,46,.1),-0px 0px 0px 1px rgba(46,46,46,.1);
+	-o-box-shadow: 0px 0px 0px 1px rgba(46,46,46,.1),-0px 0px 0px 1px rgba(46,46,46,.1);
+	box-shadow: 0px 0px 0px 1px rgba(46,46,46,.1),-0px 0px 0px 1px rgba(46,46,46,.1);
+}
+
+#dropmenu li{
+	color:#2e2e2e;
+	padding: 0px 20px;
+	margin: 5px 0px;
+	list-style-type: none;
+	
+}
+#dropmenu a{text-decoration: none;}
+
+#dropmenu li:hover{
+	color: #faf5ef;
+	background: #d54859;
+
+	}
+	
+	#dropmenu .seperate{
+		
+		width: 95%;
+		margin: 5px 2.5%;
+		border: 0.1px solid rgba(46,46,46,0.1);
+		}

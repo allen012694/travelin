@@ -1,0 +1,39 @@
+@charset "utf-8";
+
+
+
+@font-face {
+    font-family: "UTMBEBAS";
+    src: url('../font/UTM-BEBAS.TTF')  format("truetype");
+}
+
+@font-face {
+    font-family: "Ong Do Gia";
+    src: url('../font/UTM Ong Do Gia.ttf') format("truetype");
+}
+
+
+@font-face {
+    font-family: "UTMAvo";
+    src: url('../font/UTM Avo.ttf') format("truetype");
+}
+
+@font-face {
+    font-family: "SVN-Nexa Light";
+    src: url('../font/SVN-Nexa Light.ttf')  format("truetype");
+}
+
+@font-face {
+    font-family: "SVN-Nexa Bold";
+    src: url('../font/SVN-Nexa Bold.ttf') format("truetype");
+}
+
+@font-face {
+    font-family: "code-light";
+    src: url('../font/code-light.ttf') format("truetype");
+}
+
+@font-face {
+    font-family: "code-bold";
+    src: url('../font/code-bold.ttf')  format("truetype");
+}
